@@ -1,0 +1,21 @@
+body {
+  background: wheat;
+}
+
+.list {
+  height: 100vh;
+  display: flex;
+  /* 縦に並べる */
+  flex-direction: column;
+  /* 折り返す */
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item {
+  width: 20%;
+}
+
+.image {
+  width: 100%;
+}
